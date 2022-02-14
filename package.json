@@ -1,0 +1,21 @@
+{
+  "name": "rss-subscription-api",
+  "version": "0.0.0",
+  "description": "RSS Subscription é um app leitor de rss, onde você poderá centralizar todas as suas inscrições de notícias.",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./src/app.js",
+    "server": "nodemon ./src/app.js"
+  },
+  "author": "RaelTech ltda.",
+  "license": "MIT",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
